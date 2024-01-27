@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.regex.Pattern;
 import java.util.stream.IntStream;
 
-public class InvokeUnknownMethod {
+public class InvokeUnknownMethodReflection {
 
     public static LinkedHashMap<String, Class> patterns = new LinkedHashMap<>()
     {
