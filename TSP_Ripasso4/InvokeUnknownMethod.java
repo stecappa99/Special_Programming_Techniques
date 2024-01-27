@@ -54,7 +54,7 @@ public class InvokeUnknownMethod {
             for (int iClass = 0; iClass < tParameters.length; iClass++)
             {
                 if(tParameters[iClass] == pStringClass)
-                    tStringParameters[iClass] = "\" "+ tStringParameters[iClass] +" \"";
+                    tStringParameters[iClass] = "\""+ tStringParameters[iClass] +"\"";
 
                 if (tReturnClass == null)
                     tReturnClass = tParameters[iClass];
