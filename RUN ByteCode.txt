@@ -1,0 +1,6 @@
+1 - Creare il MANIFEST.MF, specificando la classe di premain e la manifest version
+2 - Compilare i file da aggiungere nel jar, quella col premain
+3 - Creare il jar con il comando:
+	jar -cfm <nome del file jar>.jar MANIFEST.MF <file da includere>
+4 - Lanciare il programma con il comando:
+	java -javaagent:<nome del file jar>.jar <nome classe col main>

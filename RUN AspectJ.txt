@@ -1,0 +1,8 @@
+1 - Per compilare usaere il comando:
+		ajc -<Versione (1.9)> <Lista di aspetti> <File Java>
+2 - Per lanciarlo, usare il comando:
+		aj <Nome classe main>
+		aj5 <Nome classe main>
+	Se non va, usare:
+		java <Nome classe main>
+	
